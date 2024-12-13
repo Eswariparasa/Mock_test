@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="login.css"> <!-- Link to external CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Examination Portal</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <div class = "img1">
-        <img src = "https://github.com/Eswariparasa/Mock_test/blob/main/pse5.jpg?raw=true">  
-    </div>
-  <div class="container">
-    <div class="form-container">
-      <h1>Login</h1>
-      <form id="LoginForm" action="success.html" method="get" onsubmit="return validateForm()">
-        <label for="Email">Email</label>
-        <input type="email" id="email" name="email" required>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-        <!-- <button type="Login" id="registerBtn" disabled><a href="content.html">Login</a></button> -->
-        <button onclick="window.location.href='content.html'">Login</button>
-        <div class="options">
-            <p><a href="Signup.html">Create Account</a></p>
+    <div class="background-image">
+        <div class="content">
+            <h1>Digital Examination Portal</h1>
+            <div class="container">
+                <a href="Signup.html" class="button">
+                    <img src="https://github.com/Eswariparasa/Mock_test/blob/main/pse2.jpg?raw=true" class="icon">
+                    <span>Signup</span>
+                </a>
+                <a href="login.html" class="button">
+                    <img src="https://github.com/Eswariparasa/Mock_test/blob/main/pse3.jpg?raw=true" class="icon">
+                    <span>Login</span>
+                </a>
+            </div>
         </div>
-      </form>
     </div>
-  </div>
-  </body>
-  </html>
+</body>
+</html>

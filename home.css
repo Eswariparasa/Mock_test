@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    background-image: url("https://raw.githubusercontent.com/Eswariparasa/pse1/refs/heads/main/pse1.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+    color: rgb(235, 227, 227);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(77, 64, 64, 0.858); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #238064;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 250px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #265145;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Additional responsive design for small screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .button {
+        font-size: 1em;
+        width: 200px;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,85 @@
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50;
+    margin-right: 30px;
+    transform: translateY(-50%);
+}
+
+.image-container a img {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h1{
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: abc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(190, 232, 124);
+    position: relative;
+    animation-direction: alternate;
+}
+p{
+    color: #5c5959;
+    margin-left: 50px;
+}
+@keyframes abc {
+    0% {background-color: rgb(170, 224, 124); left:0px; top:0px;}
+    25% {background-color: rgb(110, 219, 222); left: 200px; top: 0px;}
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin-right: 1500px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#search-btn {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#search-btn:hover {
+    background-color: #0056b3;
+}
+.xyz{
+    color: rgb(106, 94, 94);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+body{
+    background-image: url("https://github.com/Eswariparasa/homeimg1/blob/main/varsh.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

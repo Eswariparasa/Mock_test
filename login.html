@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div class = "img1">
+        <img src = "https://github.com/Eswariparasa/pse7/blob/main/pse7.jpg?raw=true">  
+    </div>
+  <div class="container">
+    <div class="form-container">
+      <h1>Login</h1>
+      <form id="LoginForm" action="success.html" method="get" onsubmit="return validateForm()">
+        <label for="Email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <!-- <button type="Login" id="registerBtn" disabled><a href="content.html">Login</a></button> -->
+        <button onclick="window.location.href='content.html'">Login</button>
+        <div class="options">
+            <p><a href="Signup.html">Create Account</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  </body>
+  </html>

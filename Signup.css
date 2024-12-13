@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("https://github.com/Eswariparasa/pse6/blob/main/pse6.jpg?raw=true"); /* Sample image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1{
+    display:flex;
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-left: 1300px;
+    margin-right: 0%;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-left: 800px;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Heading style */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input field styling */
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Focus effect on input fields */
+  .form-container input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  /* Button styling */
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #48314c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .form-container button:disabled {
+    background-color: #48314c;
+    cursor: not-allowed;
+  }
+  
+  .form-container button:hover {
+    background-color: #8d5072;
+  }
+  a{
+    color:antiquewhite;
+  }
